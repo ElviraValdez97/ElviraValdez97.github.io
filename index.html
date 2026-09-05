@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Elvira Valdez | Perfil</title>
 
     <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -18,19 +20,28 @@
             color: white;
         }
 
-        /* FONDO DE INFORMÁTICA */
+        /* =========================
+           FONDO DE COMPUTADORA Y CÓDIGO
+           ========================= */
+
         .perfil {
             min-height: 100vh;
+
             display: flex;
             align-items: center;
+
             padding: 60px 10%;
 
-            background:
-                linear-gradient(rgba(10, 20, 40, 0.82), rgba(10, 20, 40, 0.92)),
-                url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80");
+            background-image:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.70),
+                    rgba(0, 0, 0, 0.80)
+                ),
+                url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80");
 
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
         }
 
         .contenido {
@@ -58,20 +69,28 @@
             margin-bottom: 30px;
         }
 
+        /* BOTONES */
+
         .botones a {
             display: inline-block;
             text-decoration: none;
+
             padding: 14px 25px;
             margin-right: 12px;
+
             border-radius: 8px;
+
             background: #2563eb;
             color: white;
+
             font-weight: bold;
         }
 
         .botones a:hover {
             background: #1d4ed8;
         }
+
+        /* SECCIONES */
 
         .seccion {
             padding: 70px 10%;
@@ -84,19 +103,28 @@
             color: #60a5fa;
         }
 
+        /* TARJETAS */
+
         .conocimientos {
             display: flex;
             flex-wrap: wrap;
+
             justify-content: center;
             gap: 20px;
         }
 
         .tarjeta {
             background: #111827;
+
             padding: 25px;
+
             border-radius: 10px;
+
             width: 220px;
+
             text-align: center;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
 
         .tarjeta h3 {
@@ -109,41 +137,73 @@
             margin-bottom: 0;
         }
 
+        /* PROYECTOS */
+
         .proyectos {
             background: #111827;
         }
 
+        /* CONTACTO */
+
+        #contacto {
+            text-align: center;
+        }
+
+        /* PIE DE PÁGINA */
+
         footer {
             text-align: center;
+
             padding: 25px;
+
             background: #0f172a;
+
             color: #9ca3af;
         }
+
     </style>
+
 </head>
+
 
 <body>
 
-    <!-- PRESENTACIÓN -->
+
+    <!-- =========================
+         PRESENTACIÓN
+         ========================= -->
+
     <section class="perfil">
 
         <div class="contenido">
 
-            <h1>Hola, soy <span>Elvira Valdez</span></h1>
+            <h1>
+                Hola, soy <span>Elvira Valdez</span>
+            </h1>
 
-            <h2>Estudiante de Análisis de Sistemas</h2>
+            <h2>
+                Estudiante de Análisis de Sistemas
+            </h2>
 
             <p>
-                Me encanta el mundo de la tecnología y el desarrollo de sistemas.
-                Me interesa aprender cosas nuevas y seguir desarrollando mis
-                habilidades en el área informática. Siempre estoy en constante
-                aprendizaje, buscando crear soluciones útiles y mejorar mis
-                conocimientos.
+                Me encanta el mundo de la tecnología y el desarrollo
+                de sistemas. Me interesa aprender cosas nuevas y seguir
+                desarrollando mis habilidades en el área informática.
+                Siempre estoy en constante aprendizaje, buscando crear
+                soluciones útiles y mejorar mis conocimientos.
             </p>
 
+
             <div class="botones">
-                <a href="#proyectos">Ver mis proyectos</a>
-                <a href="#contacto">Contáctame</a>
+
+                <a href="#proyectos">
+                    Ver mis proyectos
+                </a>
+
+                <a href="#contacto">
+                    Contáctame
+                </a>
+
             </div>
 
         </div>
@@ -151,100 +211,185 @@
     </section>
 
 
-    <!-- MIS CONOCIMIENTOS -->
+    <!-- =========================
+         MIS CONOCIMIENTOS
+         ========================= -->
+
     <section class="seccion">
 
-        <h2>Mis conocimientos</h2>
+        <h2>
+            Mis conocimientos
+        </h2>
+
 
         <div class="conocimientos">
 
+
             <div class="tarjeta">
+
                 <h3>Java</h3>
-                <p>Desarrollo de aplicaciones y programación.</p>
+
+                <p>
+                    Desarrollo de aplicaciones y programación.
+                </p>
+
             </div>
 
+
             <div class="tarjeta">
+
                 <h3>Python</h3>
-                <p>Programación y resolución de problemas.</p>
+
+                <p>
+                    Programación y resolución de problemas.
+                </p>
+
             </div>
 
+
             <div class="tarjeta">
+
                 <h3>HTML y CSS</h3>
-                <p>Creación y diseño de páginas web.</p>
+
+                <p>
+                    Creación y diseño de páginas web.
+                </p>
+
             </div>
 
+
             <div class="tarjeta">
+
                 <h3>Bases de datos</h3>
-                <p>Trabajo con datos y bases de datos.</p>
+
+                <p>
+                    Trabajo con datos y bases de datos.
+                </p>
+
             </div>
 
+
             <div class="tarjeta">
+
                 <h3>GitHub y Vercel</h3>
-                <p>Control de proyectos y publicación web.</p>
+
+                <p>
+                    Control de proyectos y publicación web.
+                </p>
+
             </div>
 
+
             <div class="tarjeta">
+
                 <h3>Packet Tracer</h3>
-                <p>Configuración y práctica de redes.</p>
+
+                <p>
+                    Configuración y práctica de redes.
+                </p>
+
             </div>
+
 
         </div>
 
     </section>
 
 
-    <!-- MIS PROYECTOS -->
-    <section class="seccion proyectos" id="proyectos">
+    <!-- =========================
+         MIS PROYECTOS
+         ========================= -->
 
-        <h2>Mis proyectos</h2>
+    <section
+        class="seccion proyectos"
+        id="proyectos"
+    >
+
+        <h2>
+            Mis proyectos
+        </h2>
+
 
         <div class="conocimientos">
 
+
             <div class="tarjeta">
-                <h3>Sistema Colegio</h3>
+
+                <h3>
+                    Sistema Colegio
+                </h3>
+
                 <p>
                     Proyecto desarrollado con Java y base de datos
                     para la gestión de información de un colegio.
                 </p>
+
             </div>
 
+
             <div class="tarjeta">
-                <h3>Ejercicios en Python</h3>
+
+                <h3>
+                    Ejercicios en Python
+                </h3>
+
                 <p>
                     Prácticas de programación y resolución de
                     diferentes problemas.
                 </p>
+
             </div>
 
+
             <div class="tarjeta">
-                <h3>Proyecto Web</h3>
+
+                <h3>
+                    Página Web
+                </h3>
+
                 <p>
                     Creación y publicación de una página web
                     utilizando GitHub y Vercel.
                 </p>
+
             </div>
+
 
         </div>
 
     </section>
 
 
-    <!-- CONTACTO -->
-    <section class="seccion" id="contacto">
+    <!-- =========================
+         CONTACTO
+         ========================= -->
 
-        <h2>Contáctame</h2>
+    <section
+        class="seccion"
+        id="contacto"
+    >
 
-        <p style="text-align: center;">
-            Gracias por visitar mi perfil. Puedes contactarme para
-            conocer más sobre mis proyectos y conocimientos.
+        <h2>
+            Contáctame
+        </h2>
+
+        <p>
+            Gracias por visitar mi perfil.
+            Puedes contactarme para conocer más
+            sobre mis proyectos y conocimientos.
         </p>
 
     </section>
 
 
+    <!-- PIE -->
+
     <footer>
+
         © 2026 Elvira Valdez - Perfil Personal
+
     </footer>
+
 
 </body>
 </html>
